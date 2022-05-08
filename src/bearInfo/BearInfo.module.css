@@ -1,0 +1,31 @@
+.modalWrapper {
+  padding: 20px;
+}
+
+.bearImage {
+  width: 100%;
+}
+
+.bearName {
+  margin: 20px 0 10px 0;
+}
+
+.bearType {
+  margin: 0 0 5px 0;
+}
+
+.bearGender {
+  margin: 0 0 20px 0;
+}
+
+.bearType,
+.bearGender {
+  font-size: 13px;
+  color: rgb(121, 120, 120);
+}
+
+.bearText {
+  font-size: 12px;
+  color: rgb(121, 120, 120);
+  text-align: justify;
+}

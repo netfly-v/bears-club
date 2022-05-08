@@ -1,0 +1,107 @@
+.bearType,
+.bearGender {
+  font-size: 13px;
+  color: rgb(121, 120, 120);
+}
+
+.bearText {
+  font-size: 12px;
+  color: rgb(121, 120, 120);
+  text-align: justify;
+}
+
+.options select {
+  margin-left: 30px;
+}
+
+.mainContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.bearInfoInReserve {
+  background-color: #008389;
+}
+
+.bearInfo {
+  /* filter: blur(5px); */
+  background-color: white;
+}
+
+.bearInfo,
+.bearInfoInReserve {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #f4f4f4;
+  border-radius: 6px;
+  width: 200px;
+  margin: 15px;
+}
+
+.bear {
+  position: relative;
+}
+
+.bearImg {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.bear h2 {
+  position: absolute;
+  top: 5px;
+  left: 45px;
+  color: #00ffb4;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.bearInfo p,
+.bearInfoInReserve p {
+  text-align: center;
+}
+
+.bearInfoInReserve p,
+.bearInfoInReserve .decline {
+  color: white;
+}
+
+.bearName {
+  margin: 20px 0 10px 0;
+}
+
+.bearType {
+  margin: 0 0 5px 0;
+}
+
+.bearGender {
+  margin: 0 0 20px 0;
+}
+
+.accept,
+.decline {
+  padding: 7px 0;
+  border-radius: 20px;
+  margin-left: 15px;
+  margin-bottom: 7px;
+  max-width: 170px;
+  cursor: pointer;
+}
+
+.accept {
+  background-color: #00ffb4;
+  border: 1px solid #00ffb4;
+  color: #004346;
+}
+
+.decline {
+  background-color: #008389;
+  border: 1px solid #008389;
+}
+
+.bearInfoInReserve .decline {
+  border: 1px solid white;
+}

@@ -6,7 +6,6 @@ import {
   checkIsBearReservedAction,
   getBearsAction,
   bearsStatusAction,
-  setBearInfoAction,
   setBearModalAction,
 } from '../state/bears/actions';
 
